@@ -1,0 +1,38 @@
+<section class="animated-container">
+</section>
+
+<section class="mt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+			  <%= image_tag "https://res.cloudinary.com/manoylo/image/upload/v1600048806/unleashed-logo_s2plij.svg", class: 'img-fluid', style: 'width: 320px;' %>
+			</div>
+		</div>
+
+    <div class="card shadow mt-5">
+      <div class="card-body">
+        <h4 class="card-title text-center">
+          Playground for <a href="https://rubygems.org/gems/unleashed_client" target="_blank">Unleashed Client ruby gem <i class="fas fa-external-link-alt"></i></a>
+        </h4>
+
+        <p class="lead text-center"><strong>DO NOT</strong> use your live API Key and API ID!</p>
+
+        <hr />
+
+        <%= react_component("public/Unleashed") %>
+      </div>
+    </div>
+	</div>
+</section>
+
+<div class="container">
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a href="https://manoylo.me" target="_blank">
+          <%= image_tag "https://res.cloudinary.com/manoylo/image/upload/v1583284399/manoylome_dhxyc0.png", class: 'img-fluid', style: 'width: 120px;' %>
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
